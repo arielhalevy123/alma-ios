@@ -18,6 +18,14 @@ separate repository.
 The result screen is real output from the production backend. Full-size App Store
 screenshots (1320 x 2868) are in `store/screenshots/en/` and `store/screenshots/he/`.
 
+## Video
+
+[![Alma explainer video (Hebrew, 1:48)](docs/media/alma-explainer-poster.jpg)](docs/media/alma-explainer-he.mp4)
+
+A short explainer in Hebrew: how to shoot the room, a walkthrough of the app, how it is
+built (SwiftUI, URLSession, Keychain), privacy, the AI pipeline on the server, and the road
+to the App Store. Click the image to open the video.
+
 ## Documentation
 
 | Document | What it covers |
