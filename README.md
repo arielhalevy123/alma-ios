@@ -8,6 +8,16 @@ stores. This repository is the native iOS app (SwiftUI, no third-party dependenc
 The app talks to the Alma backend (FastAPI) over HTTPS; the backend and the website live in a
 separate repository.
 
+## Screenshots
+
+| Sign in | Your room | Which room? | Mark & tell | Colours | Result |
+|---|---|---|---|---|---|
+| <img src="docs/media/en-01-sign-in.jpg" width="140"> | <img src="docs/media/en-02-your-room.jpg" width="140"> | <img src="docs/media/en-03-which-room.jpg" width="140"> | <img src="docs/media/en-04-mark-and-tell.jpg" width="140"> | <img src="docs/media/en-05-colours.jpg" width="140"> | <img src="docs/media/en-06-result.jpg" width="140"> |
+| <img src="docs/media/he-01-sign-in.jpg" width="140"> | <img src="docs/media/he-02-your-room.jpg" width="140"> | <img src="docs/media/he-03-which-room.jpg" width="140"> | <img src="docs/media/he-04-mark-and-tell.jpg" width="140"> | <img src="docs/media/he-05-colours.jpg" width="140"> | <img src="docs/media/he-06-result.jpg" width="140"> |
+
+The result screen is real output from the production backend. Full-size App Store
+screenshots (1320 x 2868) are in `store/screenshots/en/` and `store/screenshots/he/`.
+
 ## Documentation
 
 | Document | What it covers |
@@ -92,24 +102,19 @@ The app is iPhone-only (`TARGETED_DEVICE_FAMILY = 1`).
   `appstore-prep` branch only until that is deployed.
 - Listing text, privacy answers and screenshots: `store/`.
 
-## Screenshots
+## Taking the screenshots
 
 Debug builds accept launch arguments that drive the real wizard (compiled out of
-Release, see `ScreenshotDriver.swift`):
+Release, see `ScreenshotDriver.swift`). The simulator must be signed in first.
 
 ```
-xcrun simctl launch booted com.arielhalevy.alma.swift \
-  -AlmaDemoPhoto /path/to/room.jpg -AlmaDemoStep upload|style|review|result
+xcrun simctl launch booted com.arielhalevy.alma \
+  -AlmaDemoPhoto /path/to/room.jpg -AlmaDemoStep upload|room|mark|palette|result
 ```
 
 Add `-AppleLanguages "(he)" -AppleLocale he_IL` for Hebrew. `result` calls the
-production backend and takes about two minutes.
-
-Bundle identifier is `com.arielhalevy.alma.swift`, deliberately different from the
-Expo build's `com.arielhalevy.alma` so the two can be installed side by side. If this
-build ever becomes the shipping iOS app, change it to `com.arielhalevy.alma` and it
-takes over as an update to the existing App Store listing — ratings and reviews
-survive, because the store identifies an app by bundle id, not by language.
+production backend and takes about a minute. Build the simulator app with `xcodebuild`
+(not an unsigned copy), so the Keychain works and the sign-in survives a relaunch.
 
 ## Tests
 

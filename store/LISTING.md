@@ -117,16 +117,17 @@ Alma הופכת תמונה של החדר שלכם לעיצוב חדש שאפשר
 
 ## Screenshots
 
-`store/screenshots/en/` and `store/screenshots/he/`, five each, 1320 x 2868 PNG
-(6.9-inch display, iPhone 16 Pro Max simulator, no alpha channel). Upload them to the
+`store/screenshots/en/` and `store/screenshots/he/`, six each, 1320 x 2868 PNG
+(6.9-inch display, iPhone 17 Pro Max simulator, no alpha channel). Upload them to the
 6.9" slot; App Store Connect scales them down for smaller iPhones. No iPad set is
-needed because the app is iPhone-only.
+needed because the app is iPhone-only. Taken 27.10.2026 from the Linen design.
 
-1. Sign in (Apple, Google, or "Continue without an account")
+1. Sign in (Apple or Google)
 2. Your room (photo chosen)
-3. The look (room + palette)
-4. Review
-5. Result with buyable products (real output from the production backend)
+3. Which room?
+4. Mark & tell
+5. Colours and stores
+6. Result with buyable products (real output from the production backend)
 
 The sample room photo is `frontend/public/examples/living-room.jpg` from the web repo.
 Confirm you have the right to use it commercially, or retake the set with a photo of
