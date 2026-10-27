@@ -1,0 +1,1899 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "shouldTranslate" : false
+    },
+    " " : {
+      "shouldTranslate" : false
+    },
+    "%@ / month" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / חודש"
+          }
+        }
+      }
+    },
+    "%lld designs a month" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld עיצובים בחודש"
+          }
+        }
+      }
+    },
+    "%lld designs left" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נשארו %lld עיצובים"
+          }
+        }
+      }
+    },
+    "%lld extra designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld עיצובים נוספים"
+          }
+        }
+      }
+    },
+    "%lld extra designs, never expire" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld עיצובים נוספים, ללא תפוגה"
+          }
+        }
+      }
+    },
+    "%lld free designs left" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נותרו %lld עיצובים חינם"
+          }
+        }
+      }
+    },
+    "%lld marks" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld סימונים"
+          }
+        }
+      }
+    },
+    "%lld of %lld designs left this month" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נותרו %1$lld מתוך %2$lld עיצובים החודש"
+          }
+        }
+      }
+    },
+    "." : {
+      "shouldTranslate" : false
+    },
+    "A single wide shot works best. Daylight helps." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תמונה מוארת היטב, מזווית אחת, עובדת הכי טוב"
+          }
+        }
+      }
+    },
+    "AFTER" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אחרי"
+          }
+        }
+      }
+    },
+    "Account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חשבון"
+          }
+        }
+      }
+    },
+    "Agree and continue" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מסכים, המשך"
+          }
+        }
+      }
+    },
+    "All stores" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כל החנויות"
+          }
+        }
+      }
+    },
+    "Alma" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alma"
+          }
+        }
+      }
+    },
+    "Alma decides" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שאלמה תבחר"
+          }
+        }
+      }
+    },
+    "Analyzing your room" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מנתחים את החדר שלכם"
+          }
+        }
+      }
+    },
+    "Anything else" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הערה (לא חובה)"
+          }
+        }
+      }
+    },
+    "Anything specific?" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משהו ספציפי?"
+          }
+        }
+      }
+    },
+    "Apple did not return an identity token." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple לא החזירה אסימון זיהוי."
+          }
+        }
+      }
+    },
+    "BEFORE" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לפני"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חזרה"
+          }
+        }
+      }
+    },
+    "Bathroom" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אמבטיה"
+          }
+        }
+      }
+    },
+    "Bedroom" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חדר שינה"
+          }
+        }
+      }
+    },
+    "Before" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לפני"
+          }
+        }
+      }
+    },
+    "Before we start" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לפני שמתחילים"
+          }
+        }
+      }
+    },
+    "Bold accents" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צבעי דגש עזים"
+          }
+        }
+      }
+    },
+    "By continuing you agree to Alma's terms and privacy policy." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך פירושו הסכמה לתנאי השימוש ולמדיניות הפרטיות."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ביטול"
+          }
+        }
+      }
+    },
+    "Change photo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החליפו תמונה"
+          }
+        }
+      }
+    },
+    "Change something" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לשנות משהו"
+          }
+        }
+      }
+    },
+    "Choose a monthly plan, or add a few designs once." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בחרו מסלול חודשי, או הוסיפו כמה עיצובים בתשלום חד פעמי."
+          }
+        }
+      }
+    },
+    "Choose a photo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העלו תמונה של החדר"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נקה"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סגירה"
+          }
+        }
+      }
+    },
+    "Colours" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צבעים"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך"
+          }
+        }
+      }
+    },
+    "Continue with Google" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך עם Google"
+          }
+        }
+      }
+    },
+    "Continue without an account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך בלי חשבון"
+          }
+        }
+      }
+    },
+    "Cool greys" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אפורים קרירים"
+          }
+        }
+      }
+    },
+    "Could not reach Alma. Check your connection and try again." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו להתחבר ל-Alma. בדקו את החיבור ונסו שוב."
+          }
+        }
+      }
+    },
+    "Couldn't delete the design." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו למחוק את העיצוב."
+          }
+        }
+      }
+    },
+    "Couldn't load your designs. Pull to try again." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו לטעון את העיצובים. משכו למטה כדי לנסות שוב."
+          }
+        }
+      }
+    },
+    "Couldn't rename the design. Try again." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו לשנות את השם. נסו שוב."
+          }
+        }
+      }
+    },
+    "Current plan" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המסלול הנוכחי"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחיקה"
+          }
+        }
+      }
+    },
+    "Delete account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחיקת חשבון"
+          }
+        }
+      }
+    },
+    "Delete this design?" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "למחוק את העיצוב?"
+          }
+        }
+      }
+    },
+    "Delete your account?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "למחוק את החשבון?"
+          }
+        }
+      }
+    },
+    "Design name" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שם העיצוב"
+          }
+        }
+      }
+    },
+    "Dining room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פינת אוכל"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סגור"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סיום"
+          }
+        }
+      }
+    },
+    "Earthy greens" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ירוקים אדמתיים"
+          }
+        }
+      }
+    },
+    "From library" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מהגלריה"
+          }
+        }
+      }
+    },
+    "Generating your new room" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מעצבים לכם חדר חדש"
+          }
+        }
+      }
+    },
+    "Go to My designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לעיצובים שלי"
+          }
+        }
+      }
+    },
+    "Google sign-in did not complete. Try again." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ההתחברות עם Google לא הושלמה. נסו שוב."
+          }
+        }
+      }
+    },
+    "Google sign-in is not available yet." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ההתחברות עם Google עדיין לא זמינה."
+          }
+        }
+      }
+    },
+    "Google sign-in is not configured. Set AlmaGoogleClientID in Info.plist." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הכניסה עם Google לא מוגדרת. יש להגדיר AlmaGoogleClientID ב‐Info.plist."
+          }
+        }
+      }
+    },
+    "Hallway" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מסדרון"
+          }
+        }
+      }
+    },
+    "Helps Alma pick the right furniture. Not sure? Alma will tell." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עוזר לאלמה לבחור רהיטים מתאימים. לא בטוחים? אלמה תזהה לבד."
+          }
+        }
+      }
+    },
+    "Hi, %@" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלום, %@"
+          }
+        }
+      }
+    },
+    "Hold to compare" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החזיקו להשוואה"
+          }
+        }
+      }
+    },
+    "Home office" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חדר עבודה"
+          }
+        }
+      }
+    },
+    "If you leave now, the design will be lost. Save it to My designs?" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אם תצאו עכשיו העיצוב יאבד. לשמור אותו בעיצובים שלי?"
+          }
+        }
+      }
+    },
+    "In this room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מומלץ בשבילך"
+          }
+        }
+      }
+    },
+    "It can't be restored." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אי אפשר לשחזר אותו."
+          }
+        }
+      }
+    },
+    "It'll appear in My designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העיצוב יופיע בעיצובים שלי"
+          }
+        }
+      }
+    },
+    "Kids' room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חדר ילדים"
+          }
+        }
+      }
+    },
+    "Kitchen" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מטבח"
+          }
+        }
+      }
+    },
+    "Leave without saving" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יציאה בלי לשמור"
+          }
+        }
+      }
+    },
+    "Light and airy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בהיר ואוורירי"
+          }
+        }
+      }
+    },
+    "Living room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סלון"
+          }
+        }
+      }
+    },
+    "Manage subscription" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניהול המנוי"
+          }
+        }
+      }
+    },
+    "Mark & tell" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סמנו וספרו"
+          }
+        }
+      }
+    },
+    "My" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העיצובים"
+          }
+        }
+      }
+    },
+    "My designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העיצובים שלי"
+          }
+        }
+      }
+    },
+    "My room" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר שלי"
+          }
+        }
+      }
+    },
+    "New design" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עיצוב חדש"
+          }
+        }
+      }
+    },
+    "Not now" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא עכשיו"
+          }
+        }
+      }
+    },
+    "Not sure" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא בטוח"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הערה"
+          }
+        }
+      }
+    },
+    "Nothing marked: Alma redesigns the whole room." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא סומן כלום: אלמה תעצב את כל החדר."
+          }
+        }
+      }
+    },
+    "Nothing saved yet. Tap the heart on a result to keep it here." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עוד לא שמרתם כלום. הקישו על הלב בתוצאה כדי לשמור אותה כאן."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "אישור"
+          }
+        }
+      }
+    },
+    "Office" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משרד"
+          }
+        }
+      }
+    },
+    "One time. They never expire." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תשלום חד פעמי. ללא תפוגה."
+          }
+        }
+      }
+    },
+    "Open" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פתיחה"
+          }
+        }
+      }
+    },
+    "Opens the retailer's page" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פותח את עמוד החנות"
+          }
+        }
+      }
+    },
+    "Optional — e.g. keep the sofa, add plants" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "משהו שכדאי ל‐Alma לדעת? למשל: “השאירי את הצמחים”"
+          }
+        }
+      }
+    },
+    "Optional, e.g. light fabric, budget-friendly, good for kids" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא חובה, למשל בד בהיר, תקציב נמוך, מתאים לילדים"
+          }
+        }
+      }
+    },
+    "Or try an example" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "או נסו דוגמה"
+          }
+        }
+      }
+    },
+    "Outdoor" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חוץ"
+          }
+        }
+      }
+    },
+    "Paint over what you want replaced. Skip it to redesign the whole room." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ציירו על מה שתרצו להחליף. אפשר לדלג, ואז אלמה תעצב את כל החדר."
+          }
+        }
+      }
+    },
+    "Palette" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סגנון"
+          }
+        }
+      }
+    },
+    "Photograph a room. See it redesigned, with furniture you can " : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צלמו חדר. ראו אותו מעוצב מחדש, עם רהיטים שאפשר "
+          }
+        }
+      }
+    },
+    "Photograph a room. See it redesigned, with furniture you can actually buy." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צלמו את החדר. ראו אותו מעוצב מחדש. וקנו את הרהיטים האמיתיים מחנויות מקומיות."
+          }
+        }
+      }
+    },
+    "Pick a mood, or let Alma surprise you. Takes about a minute." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בחרו אווירה, או תנו לאלמה להפתיע. לוקח בערך דקה."
+          }
+        }
+      }
+    },
+    "Plans and designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מסלולים ועיצובים"
+          }
+        }
+      }
+    },
+    "Plans are not available right now." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המסלולים אינם זמינים כרגע."
+          }
+        }
+      }
+    },
+    "Plans renew every month at the price shown until you cancel. Payment is charged to your Apple ID. Your subscription renews automatically unless it is cancelled at least 24 hours before the end of the current period. Manage or cancel any time in Settings > your name > Subscriptions. Monthly designs reset each month and do not roll over. Extra designs never expire." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המסלולים מתחדשים מדי חודש במחיר המוצג עד לביטול. התשלום מחויב ל-Apple ID שלך. המנוי מתחדש אוטומטית אלא אם בוטל לפחות 24 שעות לפני תום התקופה הנוכחית. אפשר לנהל או לבטל בכל עת בהגדרות > השם שלך > מנויים. העיצובים החודשיים מתאפסים בכל חודש ואינם נצברים. עיצובים נוספים אינם פגים."
+          }
+        }
+      }
+    },
+    "Privacy policy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מדיניות פרטיות"
+          }
+        }
+      }
+    },
+    "Redesign my room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עצבו לי את החדר"
+          }
+        }
+      }
+    },
+    "Redesigned by Alma" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עוצב מחדש ב-Alma"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שינוי שם"
+          }
+        }
+      }
+    },
+    "Rename design" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שינוי שם העיצוב"
+          }
+        }
+      }
+    },
+    "Restore purchases" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שחזור רכישות"
+          }
+        }
+      }
+    },
+    "Review" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סקירה"
+          }
+        }
+      }
+    },
+    "Room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חדר"
+          }
+        }
+      }
+    },
+    "STEP %lld OF %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "STEP %1$lld OF %2$lld"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלב %1$lld מתוך %2$lld"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שמירה"
+          }
+        }
+      }
+    },
+    "Save name" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שמירת השם"
+          }
+        }
+      }
+    },
+    "Save to My designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שמירה בעיצובים שלי"
+          }
+        }
+      }
+    },
+    "Saved" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נשמר"
+          }
+        }
+      }
+    },
+    "Saved to My designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נשמר בעיצובים שלי"
+          }
+        }
+      }
+    },
+    "Selecting real products" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בוחרים מוצרים אמיתיים"
+          }
+        }
+      }
+    },
+    "Send your photo for AI processing?" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לשלוח את התמונה לעיבוד AI?"
+          }
+        }
+      }
+    },
+    "Sign in" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "התחברות"
+          }
+        }
+      }
+    },
+    "Sign in with Apple" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "המשך עם Apple"
+          }
+        }
+      }
+    },
+    "Sign out" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "התנתקות"
+          }
+        }
+      }
+    },
+    "Sign-in cancelled." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הכניסה בוטלה."
+          }
+        }
+      }
+    },
+    "Sign-in did not return a code." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הכניסה לא החזירה קוד."
+          }
+        }
+      }
+    },
+    "Start over" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "התחל מחדש"
+          }
+        }
+      }
+    },
+    "Step %lld of %lld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלב %1$lld מתוך %2$lld"
+          }
+        }
+      }
+    },
+    "Stores" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חנויות"
+          }
+        }
+      }
+    },
+    "Subscribe" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הרשמה למנוי"
+          }
+        }
+      }
+    },
+    "Support" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תמיכה"
+          }
+        }
+      }
+    },
+    "Surprise me" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הפתיעו אותי"
+          }
+        }
+      }
+    },
+    "Take a photo" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "צלמו"
+          }
+        }
+      }
+    },
+    "Tap a design to open it or rename it." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הקישו על עיצוב כדי לפתוח אותו או לשנות את שמו."
+          }
+        }
+      }
+    },
+    "Tap to upload from your phone" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הקישו כדי להעלות מהטלפון"
+          }
+        }
+      }
+    },
+    "Tell Alma what the room is, and how you want it to feel." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "קובע את כיוון הצבע והרהיטים"
+          }
+        }
+      }
+    },
+    "Terms of use" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תנאי שימוש"
+          }
+        }
+      }
+    },
+    "That image could not be prepared for upload." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו להכין את התמונה להעלאה."
+          }
+        }
+      }
+    },
+    "That image could not be read. Try another." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו לקרוא את התמונה. נסו אחרת."
+          }
+        }
+      }
+    },
+    "The App Store could not verify this purchase." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ה-App Store לא הצליח לאמת את הרכישה."
+          }
+        }
+      }
+    },
+    "The image could not be loaded." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו לטעון את התמונה."
+          }
+        }
+      }
+    },
+    "The look" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בחרו סגנון"
+          }
+        }
+      }
+    },
+    "The redesign failed." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העיצוב מחדש נכשל."
+          }
+        }
+      }
+    },
+    "The redesigned room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר המעוצב מחדש"
+          }
+        }
+      }
+    },
+    "The room photo you chose" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תמונת החדר שבחרת"
+          }
+        }
+      }
+    },
+    "There was nothing to restore for this Apple ID." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא נמצא מה לשחזר עבור ה-Apple ID הזה."
+          }
+        }
+      }
+    },
+    "This is taking longer than expected. Try again." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "זה לוקח יותר זמן מהצפוי. נסו שוב."
+          }
+        }
+      }
+    },
+    "This permanently deletes your Alma account and everything saved with it. It cannot be undone." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הפעולה מוחקת לצמיתות את חשבון Alma שלך ואת כל מה שנשמר בו. אי אפשר לבטל אותה."
+          }
+        }
+      }
+    },
+    "This purchase belongs to a different Alma account." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הרכישה הזו שייכת לחשבון Alma אחר."
+          }
+        }
+      }
+    },
+    "This takes about a minute." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "זה לוקח בערך דקה."
+          }
+        }
+      }
+    },
+    "This usually takes 30-60 seconds" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "זה לוקח בדרך כלל 30 עד 60 שניות"
+          }
+        }
+      }
+    },
+    "To redesign your room, Alma sends this photo and your choices to its server, where they are processed by OpenAI and Google AI services. Nothing else from your library is shared." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כדי לעצב מחדש את החדר, Alma שולחת את התמונה הזו ואת הבחירות שלך לשרת שלה, שם הן מעובדות על ידי שירותי ה-AI של OpenAI ו-Google. שום דבר אחר מהספרייה שלך לא נשלח."
+          }
+        }
+      }
+    },
+    "Total " : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סה״כ "
+          }
+        }
+      }
+    },
+    "Try again" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נסו שוב"
+          }
+        }
+      }
+    },
+    "Try another look" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סגנון אחר"
+          }
+        }
+      }
+    },
+    "Undo" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בטל"
+          }
+        }
+      }
+    },
+    "Unlimited designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עיצובים ללא הגבלה"
+          }
+        }
+      }
+    },
+    "Warm neutrals" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניוטרלים חמים"
+          }
+        }
+      }
+    },
+    "Which room?" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "איזה חדר?"
+          }
+        }
+      }
+    },
+    "Working on it…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עובדים על זה…"
+          }
+        }
+      }
+    },
+    "You are out of designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "נגמרו העיצובים"
+          }
+        }
+      }
+    },
+    "You are signed out. Sign in again to continue." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "התנתקת. יש להיכנס מחדש כדי להמשיך."
+          }
+        }
+      }
+    },
+    "You have used your free designs." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ניצלת את העיצובים החינמיים."
+          }
+        }
+      }
+    },
+    "Your" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר"
+          }
+        }
+      }
+    },
+    "Your account could not be deleted. Check your connection and try again." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא הצלחנו למחוק את החשבון. בדקו את החיבור ונסו שוב."
+          }
+        }
+      }
+    },
+    "Your design isn't saved" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "העיצוב לא נשמר"
+          }
+        }
+      }
+    },
+    "Your purchase is waiting for approval. It will be added when approved." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הרכישה ממתינה לאישור. היא תתווסף לאחר האישור."
+          }
+        }
+      }
+    },
+    "Your purchase went through but could not be added yet. Reopen Alma to finish; you will not be charged twice." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הרכישה בוצעה אך עדיין לא נוספה לחשבון. פתחו שוב את Alma כדי להשלים; לא תחויבו פעמיים."
+          }
+        }
+      }
+    },
+    "Your purchases have been restored." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הרכישות שוחזרו."
+          }
+        }
+      }
+    },
+    "Your room" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר שלך"
+          }
+        }
+      }
+    },
+    "Your room photo. Draw on it to mark items to replace." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תמונת החדר שלכם. ציירו עליה כדי לסמן פריטים להחלפה."
+          }
+        }
+      }
+    },
+    "Your room," : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר שלכם,"
+          }
+        }
+      }
+    },
+    "Your room, reimagined" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החדר שלך, מעוצב מחדש"
+          }
+        }
+      }
+    },
+    "Your session has expired. Sign out, sign in again, and try once more." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פג תוקף החיבור. התנתקו, התחברו שוב ונסו שוב."
+          }
+        }
+      }
+    },
+    "^[%lld design](inflect: true)" : {
+      "localizations" : {
+        "he" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "עיצוב אחד"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld עיצובים"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "^[%lld piece](inflect: true) you can buy today." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld פריטים שאפשר לקנות היום."
+          }
+        }
+      }
+    },
+    "actually buy." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "באמת לקנות."
+          }
+        }
+      }
+    },
+    "alma" : {
+      "shouldTranslate" : false
+    },
+    "design" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עיצוב"
+          }
+        }
+      }
+    },
+    "designs" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלי"
+          }
+        }
+      }
+    },
+    "reimagined" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בעיצוב חדש"
+          }
+        }
+      }
+    },
+    "room" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלכם"
+          }
+        }
+      }
+    },
+    "there" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חברים"
+          }
+        }
+      }
+    },
+    "·" : {
+      "shouldTranslate" : false
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,126 @@
+{
+  "identifier": "A1B2C3D4-0000-4000-8000-00000000A000",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "1.99",
+      "familyShareable": false,
+      "internalID": "A1B2C3D4-0000-4000-8000-00000000A110",
+      "localizations": [
+        {
+          "description": "Three more designs, never expire",
+          "displayName": "3 extra designs",
+          "locale": "en_US"
+        },
+        {
+          "description": "\u05e9\u05dc\u05d5\u05e9\u05d4 \u05e2\u05d9\u05e6\u05d5\u05d1\u05d9\u05dd \u05e0\u05d5\u05e1\u05e4\u05d9\u05dd, \u05dc\u05dc\u05d0 \u05ea\u05e4\u05d5\u05d2\u05d4",
+          "displayName": "3 \u05e2\u05d9\u05e6\u05d5\u05d1\u05d9\u05dd \u05e0\u05d5\u05e1\u05e4\u05d9\u05dd",
+          "locale": "he"
+        }
+      ],
+      "productID": "alma_credits_3",
+      "referenceName": "3 extra designs",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_storefront": "USA",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "A1B2C3D4-0000-4000-8000-00000000A100",
+      "localizations": [],
+      "name": "alma_monthly",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "4.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "A1B2C3D4-0000-4000-8000-00000000A101",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "12 designs a month",
+              "displayName": "Starter",
+              "locale": "en_US"
+            },
+            {
+              "description": "12 \u05e2\u05d9\u05e6\u05d5\u05d1\u05d9\u05dd \u05d1\u05d7\u05d5\u05d3\u05e9",
+              "displayName": "\u05d1\u05e1\u05d9\u05e1\u05d9",
+              "locale": "he"
+            }
+          ],
+          "productID": "alma_starter_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Alma Starter monthly",
+          "subscriptionGroupID": "A1B2C3D4-0000-4000-8000-00000000A100",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "9.99",
+          "familyShareable": false,
+          "groupNumber": 2,
+          "internalID": "A1B2C3D4-0000-4000-8000-00000000A102",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "30 designs a month",
+              "displayName": "Plus",
+              "locale": "en_US"
+            },
+            {
+              "description": "30 \u05e2\u05d9\u05e6\u05d5\u05d1\u05d9\u05dd \u05d1\u05d7\u05d5\u05d3\u05e9",
+              "displayName": "\u05e4\u05dc\u05d5\u05e1",
+              "locale": "he"
+            }
+          ],
+          "productID": "alma_plus_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Alma Plus monthly",
+          "subscriptionGroupID": "A1B2C3D4-0000-4000-8000-00000000A100",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "19.99",
+          "familyShareable": false,
+          "groupNumber": 3,
+          "internalID": "A1B2C3D4-0000-4000-8000-00000000A103",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "70 designs a month",
+              "displayName": "Pro",
+              "locale": "en_US"
+            },
+            {
+              "description": "70 \u05e2\u05d9\u05e6\u05d5\u05d1\u05d9\u05dd \u05d1\u05d7\u05d5\u05d3\u05e9",
+              "displayName": "\u05e4\u05e8\u05d5",
+              "locale": "he"
+            }
+          ],
+          "productID": "alma_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Alma Pro monthly",
+          "subscriptionGroupID": "A1B2C3D4-0000-4000-8000-00000000A100",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

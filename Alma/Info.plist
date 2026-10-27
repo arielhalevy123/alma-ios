@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Alma</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+
+	<!-- HTTPS only, through Apple's own URLSession: exempt from export documentation. -->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+
+	<!-- Hebrew is a first-class language, same as the RN build. Listing it here is
+	     what makes iOS mirror the whole UI for RTL automatically. -->
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>he</string>
+	</array>
+
+	<!-- Deep-link scheme, matching `scheme: "alma"` in app.json. Used as the OAuth
+	     redirect target. -->
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.arielhalevy.alma</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>alma</string>
+			</array>
+		</dict>
+		<!-- Google's OAuth redirect. iOS OAuth clients only accept the reversed
+		     client id as the redirect scheme, not a custom one like alma://. -->
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.arielhalevy.alma.google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.987536260876-9ki89nih85f4bip7v4j1opbmfdb85gvm</string>
+			</array>
+		</dict>
+	</array>
+
+	<!-- Backend origin. Mirrors app.json's extra.apiBaseUrl so both builds talk to
+	     the same place. -->
+	<key>AlmaTermsURL</key>
+	<string>https://almapic.com/terms</string>
+
+	<key>AlmaAPIBaseURL</key>
+	<string>https://gen-seller-production.up.railway.app</string>
+
+	<!-- Google OAuth client id: the iOS client (public, no secret) in the same
+	     Google Cloud project as the website. If emptied, the Google button hides. -->
+	<key>AlmaGoogleClientID</key>
+	<string>987536260876-9ki89nih85f4bip7v4j1opbmfdb85gvm.apps.googleusercontent.com</string>
+
+	<!-- Fraunces (display) and Inter (body), the same faces the Expo build loads.
+	     iOS resolves these by file name here, but by PostScript name in code — see
+	     Theme.FontName. -->
+	<!-- Linked from the sign-in screen and the account menu (guideline 5.1.1(i)). -->
+	<key>AlmaPrivacyURL</key>
+	<string>https://almapic.com/privacy</string>
+	<key>AlmaSupportURL</key>
+	<string>https://almapic.com/support</string>
+
+	<!-- "Take a photo" on the first step. The library picker needs no permission. -->
+	<key>NSCameraUsageDescription</key>
+	<string>Alma uses the camera to photograph the room you want to redesign.</string>
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fraunces_400Regular.ttf</string>
+		<string>Fraunces_400Regular_Italic.ttf</string>
+		<string>Fraunces_500Medium.ttf</string>
+		<string>Fraunces_600SemiBold.ttf</string>
+		<string>Fraunces_600SemiBold_Italic.ttf</string>
+		<string>Figtree_400Regular.ttf</string>
+		<string>Figtree_500Medium.ttf</string>
+		<string>Figtree_600SemiBold.ttf</string>
+		<string>Figtree_700Bold.ttf</string>
+	</array>
+
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+</dict>
+</plist>
