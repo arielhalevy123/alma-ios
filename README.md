@@ -8,6 +8,17 @@ stores. This repository is the native iOS app (SwiftUI, no third-party dependenc
 The app talks to the Alma backend (FastAPI) over HTTPS; the backend and the website live in a
 separate repository.
 
+## Documentation
+
+| Document | What it covers |
+|---|---|
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | The app, the server and the outside services, and how they connect. |
+| [docs/DESIGN_FLOW.md](docs/DESIGN_FLOW.md) | How a redesign works, from the photo to the AI pipeline on the server. |
+| [docs/SERVER_API.md](docs/SERVER_API.md) | Every server endpoint the app calls, errors and tokens. |
+| [docs/AUTH.md](docs/AUTH.md) | Sign in with Apple, Google sign-in with PKCE, sessions, account deletion. |
+| [docs/PAYMENTS.md](docs/PAYMENTS.md) | Subscriptions with StoreKit 2 and server-side verification. |
+| [docs/REFERENCES.md](docs/REFERENCES.md) | Apple documentation, standards (RFCs) and the services used. |
+
 ## Opening it
 
 ```
