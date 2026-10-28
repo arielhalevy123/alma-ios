@@ -197,6 +197,61 @@ enum AlmaAPI {
         return try decoder.decode(Body.self, from: try await request("/catalog/retailers")).retailers
     }
 
+    // MARK: - Search
+
+    /// One search hit: a product plus the store it comes from.
+    struct SearchHit: Decodable, Identifiable, Sendable {
+        let product: Product
+        let retailer: String
+        var id: String { product.id }
+
+        private enum Keys: String, CodingKey { case retailer }
+
+        init(from decoder: Decoder) throws {
+            product = try Product(from: decoder)
+            retailer = try decoder.container(keyedBy: Keys.self).decode(String.self, forKey: .retailer)
+        }
+    }
+
+    /// Products matching a free description, a photo of a similar item, or both,
+    /// limited to `retailers` when given. Free: it never uses a design.
+    static func searchProducts(
+        query: String?,
+        imageData: Data?,
+        retailers: [String] = [],
+        auth: String?
+    ) async throws -> [SearchHit] {
+        let boundary = "Boundary-\(UUID().uuidString)"
+        var body = Data()
+
+        func appendField(_ name: String, _ value: String) {
+            body.append("--\(boundary)\r\n")
+            body.append("Content-Disposition: form-data; name=\"\(name)\"\r\n\r\n")
+            body.append("\(value)\r\n")
+        }
+
+        if let query, !query.isEmpty { appendField("query", query) }
+        if let imageData {
+            body.append("--\(boundary)\r\n")
+            body.append("Content-Disposition: form-data; name=\"image\"; filename=\"item.jpg\"\r\n")
+            body.append("Content-Type: image/jpeg\r\n\r\n")
+            body.append(imageData)
+            body.append("\r\n")
+        }
+        if !retailers.isEmpty { appendField("retailers", retailers.joined(separator: ",")) }
+        body.append("--\(boundary)--\r\n")
+
+        struct Body: Decodable { let products: [SearchHit] }
+        let data = try await request(
+            "/catalog/search",
+            method: "POST",
+            body: body,
+            auth: auth,
+            contentType: "multipart/form-data; boundary=\(boundary)"
+        )
+        return try decoder.decode(Body.self, from: data).products
+    }
+
     /// Polls a design job once.
     static func design(id: String, auth: String) async throws -> DesignResult {
         let data = try await request("/design/\(id)", auth: auth)

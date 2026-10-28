@@ -87,6 +87,16 @@
         }
       }
     },
+    "%lld results" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld תוצאות"
+          }
+        }
+      }
+    },
     "." : {
       "shouldTranslate" : false
     },
@@ -461,6 +471,16 @@
         }
       }
     },
+    "Couldn't search right now. Check your connection and try again." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "החיפוש לא הצליח כרגע. בדקו את החיבור ונסו שוב."
+          }
+        }
+      }
+    },
     "Current plan" : {
       "localizations" : {
         "he" : {
@@ -509,6 +529,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "למחוק את החשבון?"
+          }
+        }
+      }
+    },
+    "Describe what you are looking for, or add a photo of something similar." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "תארו מה אתם מחפשים, או הוסיפו תמונה של משהו דומה."
           }
         }
       }
@@ -562,6 +592,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ירוקים אדמתיים"
+          }
+        }
+      }
+    },
+    "Find" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מצאו"
+          }
+        }
+      }
+    },
+    "For example: a small grey sofa for the living room" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לדוגמה: ספה אפורה קטנה לסלון"
           }
         }
       }
@@ -869,6 +919,16 @@
         }
       }
     },
+    "Nothing found. Try other words or more stores." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "לא נמצא כלום. נסו מילים אחרות או יותר חנויות."
+          }
+        }
+      }
+    },
     "Nothing marked: Alma redesigns the whole room." : {
       "localizations" : {
         "he" : {
@@ -1097,6 +1157,16 @@
         }
       }
     },
+    "Remove photo" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "הסרת התמונה"
+          }
+        }
+      }
+    },
     "Rename" : {
       "localizations" : {
         "he" : {
@@ -1211,6 +1281,36 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "נשמר בעיצובים שלי"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חיפוש"
+          }
+        }
+      }
+    },
+    "Search products" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חיפוש מוצרים"
+          }
+        }
+      }
+    },
+    "Searching for items like this photo" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מחפשים פריטים שדומים לתמונה הזו"
           }
         }
       }
@@ -1567,6 +1667,16 @@
         }
       }
     },
+    "Too many searches. Try again in a minute." : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "יותר מדי חיפושים. נסו שוב בעוד דקה."
+          }
+        }
+      }
+    },
     "Total " : {
       "localizations" : {
         "he" : {
@@ -1857,6 +1967,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "שלי"
+          }
+        }
+      }
+    },
+    "products" : {
+      "localizations" : {
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "מוצרים"
           }
         }
       }
