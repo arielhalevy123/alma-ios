@@ -86,6 +86,17 @@ struct UploadView: View {
             HStack {
                 AlmaWordmark()
                 Spacer()
+                Button {
+                    path.append(Route.search)
+                } label: {
+                    Image(systemName: "magnifyingglass")
+                        .font(.system(size: 18, weight: .medium))
+                        .foregroundStyle(Theme.Palette.fg)
+                        .frame(width: Theme.minTap, height: Theme.minTap)
+                        .background(Circle().fill(Theme.Palette.bgCard))
+                        .overlay(Circle().stroke(Theme.Palette.line, lineWidth: 1))
+                }
+                .accessibilityLabel("Search products")
                 Menu {
                     if session.isSignedIn {
                         if let name = session.userName, !name.isEmpty {

@@ -25,6 +25,7 @@ struct AlmaApp: App {
                                 case .palette: PaletteView(path: $path)
                                 case .result: ResultView(path: $path)
                                 case .myDesigns: MyDesignsView(path: $path)
+                                case .search: SearchView()
                                 }
                             }
                     }
@@ -72,4 +73,5 @@ enum Route: Hashable {
     case palette
     case result
     case myDesigns
+    case search
 }
